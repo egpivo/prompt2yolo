@@ -1,0 +1,8 @@
+# YOLO World Labeler Configuration
+yolo_model: "yolov8l-world.pt"                          # Path to the YOLO model
+conf: 0.3                                               # Confidence threshold for predictions
+iou: 0.5                                                # IoU threshold for non-max suppression
+max_det: 15                                             # Maximum number of detections
+image_size: 1024                                        # Size of the input images
+augment: true                                           # Whether to apply augmentations during prediction
+agnostic_nms: true                                      # Whether to use class-agnostic NMS

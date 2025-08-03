@@ -1,0 +1,10 @@
+# train_config.yaml
+
+data_config: "train_data.yaml"
+hyp_config: "hyp.yaml"
+optimizer: "Adam"
+patience: 100
+epochs: 100
+batch_size: 64
+yolo_model: "yolov5s.pt"
+directory: "model"

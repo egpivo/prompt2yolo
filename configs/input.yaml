@@ -1,0 +1,14 @@
+classes:
+  - person
+
+prompts:
+  - text: "Indoor conference room, afternoon, person, sitting at a desk, typing, 2 meters view"
+    weight: 1.0
+  - text: "Office space, morning, person, standing near a desk, checking papers, 3 meters view"
+    weight: 1.0
+  - text: "Library, quiet atmosphere, person, sitting, reading a book, 1.5 meters view"
+    weight: 1.0
+  - text: "Indoor conference room, evening, person, sitting, looking at a screen, 2 meters view"
+    weight: 1.0
+  - text: "Office space, afternoon, person, sitting at a desk, working on a computer, 1.5 meters view"
+    weight: 1.0

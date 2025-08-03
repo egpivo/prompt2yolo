@@ -1,0 +1,7 @@
+data_config: "test_data.yaml"
+data_path: "test/images"
+confidence: 0.5
+iou: 0.45
+img_size: 1024
+batch_size: 64
+directory: "model"

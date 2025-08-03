@@ -1,0 +1,14 @@
+# DreamBooth Generator Configuration
+model_path: "stabilityai/stable-diffusion-xl-base-1.0"  # Path to the model
+vae_path: "madebyollin/sdxl-vae-fp16-fix"              # Path to the VAE model
+generator: "realtek"                                   # LoRA checkpoints. Options: 'pixart' or 'realtek'
+image_size:                                            # Dimensions of generated images (width, height)
+  - 1024
+  - 1024
+guidance_scale: 7                                      # Guidance scale for image generation
+steps: 40                                              # Number of inference steps
+num_images: 10                                         # Number of images to generate
+val_ratio: 0.1                                         # Proportion of validation dataset
+test_ratio: 0.2                                        # Proportion of test dataset
+negative_prompt:                                       # Avoid generation of unwanted elements
+  "anime, cartoon, graphic, text, painting, crayon, graphite, abstract"
